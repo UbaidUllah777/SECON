@@ -72,20 +72,23 @@
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
-  <body data-plugin-scroll-spy data-plugin-options="{'target': '#sidebar'}">
-    <div class="body">
-      <header
-        id="header"
-        class="header-transparent header-semi-transparent header-semi-transparent-light"
-        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 1, 'stickySetTop': '1'}"
-      ></header>
+
+  <body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'spinningSquare'}">
+    <div class="loading-overlay">
+      <div class="bounce-loader">
+        <div class="cssload-spinning-square-loading"></div>
+      </div>
+    </div>
+    <header id="header" class="header-transparent header-semi-transparent header-semi-transparent-light" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 1, 'stickySetTop': '1'}">
+				
+    </header>
 
       <div role="main" class="main">
-        <section class="section section-height-3">
-          <div class="container">
-            <div class="row">
+        <section class="section section-height-3 border-0 m-0">
+          <div class="container position-relative pt-5 pb-5-5 mt-5 mb-5">
+            <div class="row my-5">
               <div class="col">
-                <hr class="solid my-5" />
+             
 
                 <h4>Marbles</h4>
 

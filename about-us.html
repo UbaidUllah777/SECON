@@ -72,7 +72,13 @@
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
-  <body data-plugin-scroll-spy data-plugin-options="{'target': '#sidebar'}">
+
+  <body class="loading-overlay-showing" data-loading-overlay data-plugin-options="{'hideDelay': 500, 'effect': 'spinningSquare'}">
+    <div class="loading-overlay">
+      <div class="bounce-loader">
+        <div class="cssload-spinning-square-loading"></div>
+      </div>
+    </div>
     <div class="body">
       <header
         id="header"
