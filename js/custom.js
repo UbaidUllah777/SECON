@@ -22,17 +22,17 @@ ElHeader.innerHTML = `
 											<nav class="collapse px-3-5">
 												<ul class="nav nav-pills" id="mainNav">
 													<li>
-														<a class="nav-link active" href="index.html">
+														<a id="headerLinkHome" class="nav-link " href="index.html">
 															Home
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="about-us.html">
+														<a  id="headerLinkAboutUs"  class="nav-link" href="about-us.html">
 															About Us
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="nav-link dropdown-toggle" href="services.html">
+														<a id="headerLinkServices"  class="nav-link dropdown-toggle" href="services.html">
 															Services
 														</a>
 														<ul class="dropdown-menu">
@@ -43,17 +43,17 @@ ElHeader.innerHTML = `
 														</ul>
 													</li>
 													<li>
-														<a class="nav-link" href="projects.html">
+														<a id="headerLinkProjects"  class="nav-link" href="projects.html">
 															Projects
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="gallery.html">
+														<a id="headerLinkGallery"  class="nav-link" href="gallery.html">
 															Gallery 
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="contact.html">
+														<a id="headerLinkContactUs"  class="nav-link" href="contact.html">
 															Contact us
 														</a>
 													</li>
