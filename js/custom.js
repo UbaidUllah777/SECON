@@ -66,9 +66,10 @@ ElHeader.innerHTML = `
 									</div>
 									<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border d-none d-sm-flex ms-3 order-1 order-lg-2">
 										<ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean social-icons-medium ms-0">
-											<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-											<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-											<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+										<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+										<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Insgram"><i class="fa-brands fa-instagram"></i></a></li>
+											<li class="social-icons-youtube"><a href="http://www.youtube.com/" target="_blank" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+											<li class="social-icons-linkedin"><a href="http://www.tiktok.com/" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
 										</ul>
 									</div>
 								
